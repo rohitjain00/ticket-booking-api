@@ -64,13 +64,13 @@ class TicketDto:
             "id": fields.Integer(
                 required=True, description="ticket's id"
             ),
-            "movie_id": fields.Integer(
+            "movie": fields.Integer(
                 required=True, description="ticket's movie id"
             ),
             "date": fields.String(
                 required=True, description="movie's date"
             ),
-            "time_id": fields.Integer(
+            "show_time_id": fields.Integer(
                 required=True, description="ticket's time id"
             ),
         }

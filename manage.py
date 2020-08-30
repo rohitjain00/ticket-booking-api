@@ -19,6 +19,9 @@ migrate = Migrate(app, db)
 
 manager.add_command('db', MigrateCommand)
 
+from app.initial_data import push_initial_data
+push_initial_data()
+
 
 @manager.command
 def run():
