@@ -25,6 +25,8 @@ time.
 
 ## About the API
 
+This API uses a [swagger UI](https://swagger.io/tools/swagger-ui/) so you can visit https://ticket-booking-app-zomentum.herokuapp.com/ for the inputs, outputs and the models used.
+
 ### Endpoints
 1. A `post` request to `/ticket/` would result in booking of ticket
 2. A `put` request to `/ticket/` would result in updating time of ticket
