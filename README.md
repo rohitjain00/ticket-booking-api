@@ -25,7 +25,7 @@ time.
 
 ## About the API
 
-### endpoints
+### Endpoints
 1. A `post` request to `/ticket/` would result in booking of ticket
 2. A `put` request to `/ticket/` would result in updating time of ticket
 3. A `get` request to `/ticket/` would result in a list of ticket with same movie, timing, date
@@ -39,7 +39,7 @@ File where the jobs are started : [__init__.py](app/main/__init__.py)
 
 Cron Jobs : [cron.py](app/main/util/cron.py)
 
-### Database used
+### Database
 SQLite is used as database. Below is the ER diagram.
 
 ![ER Diagram](ER-diagram.png)
