@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/rohitjain00/ticket-booking-api.svg?token=5M47HtEEpBk1wLoBPeZH&branch=master)](https://travis-ci.com/rohitjain00/ticket-booking-api)
+
 ## PROBLEM STATEMENT:
 
 You have to design a REST interface for a movie theatre ticket booking system. It should
