@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0e2e552de1064c2997f6bee45b459e45)](https://app.codacy.com/manual/rohitjain00/ticket-booking-api?utm_source=github.com&utm_medium=referral&utm_content=rohitjain00/ticket-booking-api&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.com/rohitjain00/ticket-booking-api.svg?token=5M47HtEEpBk1wLoBPeZH&branch=master)](https://travis-ci.com/rohitjain00/ticket-booking-api)
 
 ## PROBLEM STATEMENT:
