@@ -215,12 +215,11 @@ def test_ticket_particular_time(self, movie_id, date, time_id):
 class TestAllTicketsWithParticularTime(BaseTestCase):
     def test_tickets_with_particular_time(self):
         with self.client:
-            user = create_user()
             time = create_time()
             movie = create_movie(time)
 
             for i in range(0, 10):
-                book_ticket(self, movie_id=movie.id, date=future_date, time_id=time.id, name=user.name, number=user.number)
+                book_ticket(self, movie_id=movie.id, date=future_date, time_id=time.id, name='Test2', number='8888888888')
             response = test_ticket_particular_time(self, movie_id=movie.id, date=future_date, time_id=time.id)
             response_json = response.json
             self.assertEqual(len(response_json['tickets']), 10)
