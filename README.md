@@ -83,3 +83,12 @@ python manage.py test
 ![SS2](postman%20SS/Screen%20Shot%202020-08-30%20at%2011.56.52%20PM.png)
 ![SS2](postman%20SS/Screen%20Shot%202020-08-30%20at%2011.57.17%20PM.png)
 ![SS2](postman%20SS/Screen%20Shot%202020-08-30%20at%2011.57.49%20PM.png)
+
+## Running with Docker
+
+This project is fully Dockerized! To run the application locally without dealing with system dependencies, simply ensure you have Docker and Docker Compose installed and run:
+
+`ash
+docker-compose up --build
+`
+This will automatically build the containers, install all necessary dependencies, and spin up the environment.
