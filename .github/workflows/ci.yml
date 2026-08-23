@@ -21,3 +21,5 @@ jobs:
 
       - name: Run tests
         run: pytest
+        env:
+          SECRET_KEY: ci-test-secret-key-not-for-production
